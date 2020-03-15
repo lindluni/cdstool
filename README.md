@@ -1,0 +1,1 @@
+Simple tool for extracting Hyperledger Fabric CDS packages into simple tarballs
