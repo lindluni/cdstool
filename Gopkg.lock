@@ -2,7 +2,7 @@
 
 
 [[projects]]
-  digest = "1:a8e9a209e7e698c7a60b2df94aff0d6667534a3ea1e318d7fe11df173063c34f"
+  digest = "1:c007450af833e6807cad4a616a7683deba243d5cd846a89e3cdadfde2809e64e"
   name = "github.com/golang/protobuf"
   packages = [
     "proto",
@@ -13,11 +13,11 @@
     "ptypes/timestamp",
   ]
   pruneopts = "UT"
-  revision = "84668698ea25b64748563aa20726db66a6b8d299"
-  version = "v1.3.5"
+  revision = "d04d7b157bb510b1e0c10132224b616ac0e26b17"
+  version = "v1.4.2"
 
 [[projects]]
-  digest = "1:0fa87fda76054116c6774a134f3aff22747aaeddd9d69df23ad7e7096e395919"
+  digest = "1:4f3f5783a1cbee3f5cafc678f4f1b073c298afc9c420e56f1cbb085c8dab668e"
   name = "github.com/hyperledger/fabric"
   packages = [
     "bccsp",
@@ -37,8 +37,8 @@
     "protos/token",
   ]
   pruneopts = "UT"
-  revision = "635fa7bc8054ce75fd6af6fdb138be2c4e9996ba"
-  version = "v1.4.6"
+  revision = "e0afaa7415a8f11990ce2142bb1d6700d74e147c"
+  version = "v1.4.7"
 
 [[projects]]
   digest = "1:4e6747259a47ce5cd9dc04bbaef87b8e061b32038f428c05db7179e5ec3e47ff"
@@ -89,7 +89,7 @@
   version = "v1.5.0"
 
 [[projects]]
-  digest = "1:b1804526c6619ad84e6c603509a5314799f4cd7e19342f2ba082a122e6a0f283"
+  digest = "1:30ee579ce37c807c4ba2c544d868ee3d0db43310261f76cc081315ceb343d82a"
   name = "go.uber.org/zap"
   packages = [
     ".",
@@ -101,8 +101,8 @@
     "zapgrpc",
   ]
   pruneopts = "UT"
-  revision = "c89bd3c833f56cad3bc6dfa104b9c6d144526145"
-  version = "v1.14.0"
+  revision = "feeb9a050b31b40eec6f2470e7599eeeadfe5bdd"
+  version = "v1.15.0"
 
 [[projects]]
   branch = "master"
@@ -110,22 +110,11 @@
   name = "golang.org/x/crypto"
   packages = ["sha3"]
   pruneopts = "UT"
-  revision = "f7b00557c8c46a1ea4b035cae84f52028c2c0564"
+  revision = "06a226fb4e3765ef3f48aa2852b401bc7b98e981"
 
 [[projects]]
   branch = "master"
-  digest = "1:3403849330a8ab0adfff079dc6c6ad7bd8961a4a6891d05b9797063b4024f623"
-  name = "golang.org/x/lint"
-  packages = [
-    ".",
-    "golint",
-  ]
-  pruneopts = "UT"
-  revision = "738671d3881b9731cc63024d5d88cf28db875626"
-
-[[projects]]
-  branch = "master"
-  digest = "1:d60f1958ca4a7a5eb327a5f742777f1d238f78f9722a32cd12a7dc0311e1f50d"
+  digest = "1:81282d5d15c0b6102193c63269cb16c9a65b7fbd24bc6586ed26e5c6f309312c"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -137,18 +126,19 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "244492dfa37ae2ce87222fd06250a03160745faa"
+  revision = "a91f0712d120a21e49061d61eb6ba9b88cb0d376"
 
 [[projects]]
   branch = "master"
-  digest = "1:74046142fdf4eebad45d5e04e055aa584104aac2400ab021322ac6936898fa95"
+  digest = "1:45bbeb84df068ef2a48db39eb79b0358836d460660311a3f0c7c28e59e110303"
   name = "golang.org/x/sys"
   packages = [
     "cpu",
+    "internal/unsafeheader",
     "unix",
   ]
   pruneopts = "UT"
-  revision = "5c8b2ff67527cb88b770f693cebf3799036d8bc0"
+  revision = "1151b9dac4a98d49ef7f80f07ddd826ff51e0b36"
 
 [[projects]]
   digest = "1:8d8faad6b12a3a4c819a3f9618cb6ee1fa1cfc33253abeeea8b55336721e3405"
@@ -177,24 +167,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:1050c11c1d756701b8a247428e7af6cdc4f45b5bca163ae8b9c78ea0e2455e87"
-  name = "golang.org/x/tools"
-  packages = [
-    "go/ast/astutil",
-    "go/gcexportdata",
-    "go/internal/gcimporter",
-    "go/types/typeutil",
-  ]
-  pruneopts = "UT"
-  revision = "4303120df7d88143fd0803f9144b4f47ad3ea9fb"
-
-[[projects]]
-  branch = "master"
-  digest = "1:1c2a9b5021f7fe23a6f880468633f407f8b600a67e29b10f1892ae4425085820"
+  digest = "1:7ac26fa764d15fdbc6a9b6de1d29fc0b38bbd485d24a2aa80add05a064ec6a04"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "30c55424f95dc44392639e08dbaf515f644547fd"
+  revision = "fc4c6c6a658718fcfdc6a03ec80654c26cf8c8d7"
 
 [[projects]]
   digest = "1:ab8e92d746fb5c4c18846b0879842ac8e53b3d352449423d0924a11f1020ae1b"
@@ -230,6 +207,46 @@
   pruneopts = "UT"
   revision = "8dea3dc473e90c8179e519d91302d0597c0ca1d1"
   version = "v1.15.0"
+
+[[projects]]
+  digest = "1:aac2e1a6a9b226031b3da0bd560c1b94e33986bc067317b43b141a5cfd0529b2"
+  name = "google.golang.org/protobuf"
+  packages = [
+    "encoding/prototext",
+    "encoding/protowire",
+    "internal/descfmt",
+    "internal/descopts",
+    "internal/detrand",
+    "internal/encoding/defval",
+    "internal/encoding/messageset",
+    "internal/encoding/tag",
+    "internal/encoding/text",
+    "internal/errors",
+    "internal/fieldnum",
+    "internal/fieldsort",
+    "internal/filedesc",
+    "internal/filetype",
+    "internal/flags",
+    "internal/genname",
+    "internal/impl",
+    "internal/mapsort",
+    "internal/pragma",
+    "internal/set",
+    "internal/strs",
+    "internal/version",
+    "proto",
+    "reflect/protoreflect",
+    "reflect/protoregistry",
+    "runtime/protoiface",
+    "runtime/protoimpl",
+    "types/known/anypb",
+    "types/known/durationpb",
+    "types/known/emptypb",
+    "types/known/timestamppb",
+  ]
+  pruneopts = "UT"
+  revision = "d165be301fb1e13390ad453281ded24385fd8ebc"
+  version = "v1.23.0"
 
 [solve-meta]
   analyzer-name = "dep"

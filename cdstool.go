@@ -9,7 +9,7 @@ import (
 	pb "github.com/hyperledger/fabric/protos/peer"
 )
 
-var errorColor = "\033[1;31m%s\033[0m\n"
+var ERRORCOLOR = "\033[1;31m%s\033[0m\n"
 
 func main() {
 	inputFile := flag.String("input", "", "The CDS package file")
@@ -23,14 +23,14 @@ func main() {
 
 	chaincode, err := ioutil.ReadFile(*inputFile)
 	if err != nil {
-		fmt.Printf(errorColor, err)
+		fmt.Printf(ERRORCOLOR, err)
 		return
 	}
 
 	depSpec := &pb.ChaincodeDeploymentSpec{}
 	err = proto.Unmarshal(chaincode, depSpec)
 	if err != nil {
-		fmt.Printf(errorColor, err)
+		fmt.Printf(ERRORCOLOR, err)
 		return
 	}
 	fmt.Printf("Chaincode Information: =%+v\n", depSpec.ChaincodeSpec)
@@ -38,7 +38,7 @@ func main() {
 	payload := depSpec.CodePackage
 	err = ioutil.WriteFile(*outputFile, payload, 0644)
 	if err != nil {
-		fmt.Printf(errorColor, err)
+		fmt.Printf(ERRORCOLOR, err)
 		return
 	}
 }
